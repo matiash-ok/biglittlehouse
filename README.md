@@ -1,2 +1,2 @@
 # biglittlehouse
-web-page:https://github.com/matiash-ok/biglittlehouse
+web-page:https://matiash-ok.github.io/biglittlehouse/
