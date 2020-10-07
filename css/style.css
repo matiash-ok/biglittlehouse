@@ -92,14 +92,6 @@ flex-wrap: nowrap;
 /*SECTION*/
 /* HOMEPAGE */
 /*HOME 1 */
-.community{
-    background: rgb(233,225,211);
-    background: linear-gradient(180deg, rgba(233,225,211,1) 0%, rgba(242,237,229,1) 61%, rgba(245,241,234,1) 100%, rgba(248,245,240,1) 100%, rgba(250,249,245,1) 100%, rgba(255,255,255,1) 100%);
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 10%;
-}
 .textbox{
     position: absolute;
     top:25%;
@@ -234,6 +226,10 @@ flex-wrap: nowrap;
 
 /*VENTA/COMMUNITY */
 .community{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
     padding: 1%;
 }
 .community h2{
@@ -620,6 +616,8 @@ footer div:first-child{order: 2;}
        
     }
     .community{margin:10% 0% 50%}
+    .community h2{text-align: center;}
+    .textbox_3{opacity: 1;}
     .casas_ex div a img{width:300px;}
     .casas_ex div:nth-child(1){grid-area:1/1/2/2;}
     .casas_ex div:nth-child(2){grid-area:2/1/3/2;}
