@@ -626,4 +626,23 @@ footer div:first-child{order: 2;}
     .casas_ex div:nth-child(5){grid-area:5/1/6/2;}
     .casas_ex div:nth-child(6){grid-area:6/1/7/2;}
     .img_size{width: 300px;}
+    /*CASA EN VENTA */
+    .casa_venta{flex-direction: column;}
+
+    .casa_venta_2{flex-direction: column;}
+    .mapa iframe{width:350px;height: 350px;}
+
+    .mas_casas{display: none;}
+    /*SLIDER */
+    .slider{width: 350px;}
+    .slides > div{width:350px;height:350px;}
+    /*FIN */
+    form{display: none;}
+    .casa_info{order: 1;}
+    .casa_titulo{width:350px;}
+    .casa_titulo h3{font-size: 2rem;}
+    .contact{order: -1;height: 350px;}
+    .contact__2{grid-template-columns:auto 1fr;}
+    .contact__2 p{font-size: 1.5rem;}
+    
 }
