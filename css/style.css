@@ -645,7 +645,22 @@ footer div:first-child{order: 2;}
     .contact__2{grid-template-columns:auto 1fr;}
     .contact__2 p{font-size: 1.5rem;}
 }
+/*HOME MEDIA */ 
+@media only screen and (max-width:1279px) and (min-width:653px)
+{
+     /*HOME*/
+
+    /*SECTION 1 */
+    .textbox{top:0%;left:0%;width:50%;}
+    .textbox h2{font-size: 1.5rem;}
+    .textbox_p{font-size: 1.5rem;}
+    
+    .relleno{display: none;}
+}
+/*SCREEN 1279 (TABLET) */ 
 @media only screen and (max-width:1279px) and (min-width:653px){
+    
+    /*Community */
     .casas_ex{
         grid-template-columns: 1fr;   
     }
