@@ -1,0 +1,48 @@
+/*VENTA/COMMUNITY */
+.community{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+    padding: 1%;
+}
+.community h2{
+    font-family:'Consolas', sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    margin: 2% 0% 2%;
+}
+.img_container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.textbox_3{
+    transition:0.5s;
+    opacity:0;
+    background: rgba(0,0,0,0.61);
+    position: absolute;
+    bottom:0.5%;
+    left:0%;
+    
+}
+.textbox_3 p{
+    color: blanchedalmond;
+}
+.img_container:hover .textbox_3{
+    opacity:1;
+}
+.casas_ex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2,1fr);
+    grid-column-gap:1%;
+    grid-row-gap: 1%;
+}
+
+.casas_ex div:first-child{grid-area: 2/1/2/2;}
+.casas_ex div:nth-child(2){grid-area:1/2/1/3}
+.casas_ex div:nth-child(3){grid-area:1/3/1/4;}
+.casas_ex div:nth-child(4){grid-area:1/1/1/2 ;}
+.casas_ex div:nth-child(5){grid-area:2/2/2/3;}
+.casas_ex div:nth-child(6){grid-area:2/3/2/4;}

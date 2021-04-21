@@ -1,0 +1,84 @@
+@import url("../app.component.css");
+
+/*SECTION*/
+/* HOMEPAGE */
+/*HOME 1 */
+.textbox{
+    position: absolute;
+    top:25%;
+    left:10%;
+    width: 40%;
+    margin: 2%;
+}
+.textbox_p_responsive{display:none;}
+.textbox h2{
+    font-size: 2rem;
+    font-weight: normal;
+}
+.textbox_p{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.5rem;
+    padding: 2%;
+    text-align: center;
+}
+.imgbox{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.imgbox img{
+    width: 100%;
+}
+/*HOME 2 */
+
+/*.home_2 img{
+    width: 15%;
+    height: 15%;
+    position:relative;
+    top:-5px;
+}
+*/
+.home_2{
+    display:flex;
+}
+.textbox_2{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5%;
+    align-items:center;
+
+}
+.textbox_2 h2{
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: lighter;
+    font-size: 3rem;
+    width: 35%;
+    padding: 1%;
+    text-align: center;
+}
+.textbox_2 p{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.5rem;
+    padding: 2%;
+    text-align: center;
+}
+.textbox_2 h4{
+    margin: 5% 0%;
+    width: 50%;
+    text-align:center;
+}
+.textbox_2 h4 a{
+    text-decoration: none;
+    color:#707070;
+    background:#E8E0D1;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    padding: 2% 10%;
+    border:#707070 ridge 0.5px;
+    transition: 0.3s;
+}
+.textbox_2 h4 a:hover{
+    color:#ECE2D0;
+    background-color:#A26769;
+}

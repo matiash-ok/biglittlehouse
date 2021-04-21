@@ -1,0 +1,29 @@
+<header>
+    <nav id="menu_bar">
+        <div class=nav_bar>
+            <div class="logo">
+                <h1>
+                    <a [routerLink]="['home']">BIG LITTLE HOUSE</a>
+                </h1>
+            </div>
+            <div class="menu_responsive">
+                <ul>
+                  <li>
+                    
+                    <ul>
+                        <li><a [routerLink]="['home']"  >Home</a></li>
+                        <li><a [routerLink]="['discover']"  >Discover</a></li>
+                        <li><a [routerLink]="['venta']" >Venta</a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </div>
+                <ul class="menu">
+                    <li routerLinkActive="router-link-active"><a class="color-menu" routerLinkActive="color-menu-active"  [routerLink]="['home']" >Home</a></li>
+                    <li routerLinkActive="router-link-active"><a class="color-menu" routerLinkActive="color-menu-active"  [routerLink]="['discover']" >Discover</a></li>
+                    <li routerLinkActive="router-link-active"><a class="color-menu" routerLinkActive="color-menu-active"  [routerLink]="['venta']" >Venta</a></li>
+                </ul>
+            
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,54 @@
+@import url("../app.component.css");
+
+/*FOOTER*/
+footer{
+    background-color: #ECE2D0;   
+
+}
+footer section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom:2%;
+    
+}
+footer div{
+    width: 25%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer div h2 a{
+    color:#707070;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family:'Consolas', sans-serif; }
+footer p {
+    color:#707070;
+    margin-top: 0.5%;
+}
+footer div ul{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+footer div ul li a img{
+    width: 30px;
+    height: 30px;
+    margin: 5%;
+}
+footer h3{
+    font-size: 5rem;
+    font-family: 'Kalam', cursive;
+    color: #B76700;
+    order: 1;
+    margin: 2%;
+}
+footer div:first-child{order: 2;}
+.netsoc{padding: 0%;}
+.netsoc{width: 500px;}
+.netsoc h2 a{font-size: 3.2rem;padding-bottom: 0.5%;
+}
